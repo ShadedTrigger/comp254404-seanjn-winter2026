@@ -1,1 +1,1 @@
-# comp254404-seanjn-winter2026
+# This repository contains all of the code for assignments for COMP254-Section 404 for Sean Jasmins-Nelson in the Winter 2026 semester.
