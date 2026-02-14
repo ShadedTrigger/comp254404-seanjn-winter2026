@@ -20,7 +20,8 @@ public class TestDriver1 {
 //        System.out.println("New List: " + newList);
 
         System.out.println("Concatenate");
-        listL = listL.concatenate(listM);
-        System.out.println("New List: " + listL);
+        DoublyLinkedList<String> newList = listL.concatenate(listM);
+        //listL = listL.concatenate(listM);
+        System.out.println("New List: " + newList);
     }
 }

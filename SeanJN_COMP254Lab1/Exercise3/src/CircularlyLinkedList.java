@@ -174,12 +174,12 @@ public class CircularlyLinkedList<E> implements Cloneable {
 
       while (walk != head) {
         Node<E> newest = new Node<>(walk.getElement(), null);
-        otherTail.setNext(newest);
+        otherTail.setNext(newest); // Link the previous node
         otherTail = newest;
         walk = walk.getNext();
       }
 
-      otherTail.setNext(otherHead);
+      otherTail.setNext(otherHead); // Completes the circle
       other.tail = otherTail;
     }
     return other;

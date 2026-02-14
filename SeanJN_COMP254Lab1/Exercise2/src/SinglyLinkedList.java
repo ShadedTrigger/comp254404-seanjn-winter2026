@@ -222,7 +222,7 @@ public class SinglyLinkedList<E> implements Cloneable {
       walk = walk.getNext();
     }
 
-    // Check if either previous nodes are head and swap their 'next' values
+    // Check if either nodes are the head, if not, swap previous nodes 'next' values
     if (previousNode1 == null)
       head = node2;
     else
